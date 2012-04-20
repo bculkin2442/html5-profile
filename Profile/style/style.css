@@ -23,7 +23,7 @@ html {
 	background-image: -webkit-linear-gradient(0deg, green, blue);
 	width: 100px;
 	height: 100px;
-	-webkit-animation-name:gradient ;
+	-webkit-animation-name: gradient;
 	-webkit-animation-duration: 5s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-delay: 2s;
@@ -31,13 +31,82 @@ html {
 	-webkit-animation-direction: alternate;
 	-webkit-animation-play-state: running;
 }
-@-webkit-keyframes gradient {
-	0% {background-image: -webkit-linear-gradient(0deg, green, blue);
-	opacity:1;}
-	25% {background-image: -webkit-linear-gradient(90deg, green, blue); opacity:0.5;}
-	50% {background-image: -webkit-linear-gradient(180deg, green, blue); opacity:0}
-	75% {background-image: -webkit-linear-gradient(270deg, blue, green); opacity:0.5;}
-	100%{background-image: -webkit-linear-gradient(360deg, blue, green);opacity:1}
+
+@
+-webkit-keyframes gradient { 0% {
+	background-image: -webkit-linear-gradient(0deg, green, blue);
+	opacity: 1;
+}
+
+25%
+{
+background-image
+:
+ 
+-webkit-linear-gradient
+(90deg
+,
+green
+,
+blue
+);
+ 
+opacity
+:
+0
+.5
+;
+}
+50%
+{
+background-image
+:
+ 
+-webkit-linear-gradient
+(180deg
+,
+green
+,
+blue
+);
+ 
+opacity
+:
+0
+}
+75%
+{
+background-image
+:
+ 
+-webkit-linear-gradient
+(270deg
+,
+blue
+,
+green
+);
+ 
+opacity
+:
+0
+.5
+;
+}
+100%{
+background-image
+:
+ 
+-webkit-linear-gradient
+(360deg
+,
+blue
+,
+green
+);opacity
+:
+1
+}
 }
 /*div#html5test {
 	width: 100px;

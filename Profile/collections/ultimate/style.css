@@ -10,7 +10,6 @@
 	and what we do. It's the right thing to do, and we'll love you for it :)
 	
 */
-
 * {
 	margin: 0;
 	padding: 0;
@@ -53,9 +52,9 @@ h2,h3,h4 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	color: #ffffff;
 }
-h1,h2
-{
-	align:center;
+
+h1,h2 {
+	align: center;
 }
 
 img {
@@ -136,7 +135,7 @@ ul {
 	color: #a0a0a0;
 }
 
-#footer h2, #footer h3, #footer h4 {
+#footer h2,#footer h3,#footer h4 {
 	color: #ffffff;
 }
 
@@ -318,15 +317,15 @@ ul {
 	float: right;
 	padding: 0;
 }
-#button 
-{
+
+#button {
 	background: #666666 url('images/navbg.png') top left repeat-x;
-	width:50px;
-	margin:auto;
-	vertical-align:center;
-	height:25px;
+	width: 50px;
+	margin: auto;
+	vertical-align: center;
+	height: 25px;
 }
-#pass img
-{
-	border:0px;
+
+#pass img {
+	border: 0px;
 }
