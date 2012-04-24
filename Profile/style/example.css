@@ -1,0 +1,9 @@
+@CHARSET "ISO-8859-1";
+
+div.img>figure {
+	box-shadow: 10px 10px 5px #888888;
+}
+
+div.img>figure#html5logo {
+	background-image: url('images/html5.gif');
+}
