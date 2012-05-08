@@ -10,7 +10,7 @@
 <link rel="stylesheet" type="text/css" href="style/example.css">
 <link href='http://fonts.googleapis.com/css?family=Press+Start+2P'
 	rel='stylesheet' type='text/css'>
-<script type="text/javascript">
+<script type="text/javascript" id="canvas">
 	function redraw() {
 		var x = 30, y = 10;
 		var canv = document.getElementById("canvas1");
@@ -26,6 +26,10 @@
 
 	}
 </script>
+<!-- <script type="text/javascript" src="script/MacStyleDock.compressed.js"></script>
+<script type="text/javascript" id="dock-js">
+	var doc = new MacStyleDock(document.getElementById("dock"), [ {name : 'images/Sunset'}, {}, {} ])
+</script> -->
 </head>
 <body>
 	<div id="main">
@@ -105,7 +109,11 @@
 							<h4>HTML5 progress</h4>
 						</figcaption>
 						<div class='img'>
-							<img alt="" src="style/images/html5.gif">
+						<div id="light" class="white_content">
+							<img alt="" src="style/images/html5.gif"
+								onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block';">
+						</div>
+						<div id="fade" class="black_overlay"></div>
 						</div>
 					</figure>
 					<p>HTML5 is progressing along fine, with major portions of the
@@ -120,9 +128,10 @@
 				</video>
 			</section>
 			<section id="jsexamples">
-				<canvas id="canvas1" width="200" height="200"
+				<canvas id="canvas1" width="360" height="240"
 					style="font-family: 'Press Start 2P', cursive;"></canvas>
 				<input type="button" title="Draw" value="Draw" onclick="redraw()">
+				<div id="dock"></div>
 			</section>
 			<div id="footer">
 				<p>

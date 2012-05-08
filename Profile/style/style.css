@@ -2,6 +2,7 @@ html {
 	height: 100%;
 }
 
+
 #csstest {
 	width: 50px;
 	height: 50px;
@@ -43,11 +44,47 @@ html {
 background-image
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 :
+
+
+
+
+
+
 
  
 
+
+
+
+
+
+
 -webkit-linear-gradient
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 (90
@@ -58,15 +95,63 @@ green
 blue
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 );
 opacity
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 :
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 0
 .5
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ;
@@ -76,11 +161,47 @@ opacity
 background-image
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 :
+
+
+
+
+
+
 
  
 
+
+
+
+
+
+
 -webkit-linear-gradient
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 (180
@@ -91,75 +212,57 @@ green
 blue
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 );
 opacity
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 :
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 0
 }
 75%
 {
-background-image
-
-
-:
-
- 
-
--webkit-linear-gradient
-
-
-(270
-deg
-,
-blue
-,
-green
-
-
-);
-opacity
-
-
-:
-
-
-0
-.5
-
-
-;
-}
-100%{
-background-image
-
-
-:
-
- 
-
--webkit-linear-gradient
-
-
-(360
-deg
-,
-blue
-,
-green
-
-
-);
-opacity
-
-
-:
-
-
-1
+background-image:-webkit-linear-gradient(270deg,blue,green);
+opacity:0.5;}
+100%{background-image:-webkit-linear-gradient(360deg,blue,green);
+opacity:1
 }
 }
 /*div#html5test {
@@ -177,17 +280,9 @@ opacity
 	-webkit-animation-play-state: running;
 }
 
-@
-keyframes myfirst {
-	from {background: red;
-	left: 200px;
-	top: 200px;
-}
-
-to {
-	background: yellow;
-	left: 300px;
-	top: 300px;
+@keyframes myfirst {
+	from {background: red; left: 200px;top: 200px;}
+	to {background: yellow;left: 300px;top: 300px;
 }
 
 }
@@ -199,11 +294,10 @@ to {
 	from {background: red;}
 to {background: yellow;}
 }
-* {
+*/ {
 	margin: 0;
 	padding: 0;
 }
-*/
 body {
 	font: normal .80em 'trebuchet ms', arial, sans-serif;
 	background: #EEE;
@@ -492,7 +586,7 @@ ul#menu li a:hover {
 	color: #333;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	opacity: 0.25;
+	opacity: 0.20;
 	-webkit-transition-property: opacity, width, height;
 	-webkit-transition-duration: 2s;
 }
